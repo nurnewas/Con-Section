@@ -2,5 +2,18 @@ h1 {
     color: blueviolet;
     background: pink;
     border: 1px solid yellow;
-    border-radius: 45px 0px 45px 0px;
+    border-radius: 45px 0px 45px 20px;
+    background: radial-gradient(circle, blue, green, pink);
+}
+
+.btn {
+    background: tomato;
+    padding: 8px 15px;
+    color: #fff;
+    border: solid 2px black;
+    border-radius: 45px;
+    box-shadow: blue 20px;
+}
+.btn-par {
+    clip-path: polygon(50% 0%, 95% 5%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
 }
